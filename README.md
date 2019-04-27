@@ -9,7 +9,6 @@ Features
 - Creating custom GIF with set of images ( Baking :tw-1f36a:  :tw-23f3: )
 - **Based on Android Scaling Animation and Animation Drawables**
 
----
 
 Uses
 ----

@@ -4,9 +4,9 @@ Santoryu
 Features
 --------
 
-- Animated screen saver image views ( Released :tw-2714: :tw-2728: )
-- News feed stories image views  ( Baking :tw-1f36a:  :tw-23f3: )
-- Creating custom GIF with set of images ( Baking :tw-1f36a:  :tw-23f3: )
+- Animated screen saver image views ( Released :heavy_check_mark: :rocket: )
+- News feed stories image views  ( Baking :cookie:  :hourglass: )
+- Creating custom GIF with set of images ( Baking :cookie:  :hourglass: )
 - **Based on Android Scaling Animation and Animation Drawables**
 
 
@@ -50,7 +50,7 @@ For single image screen saver
 =
 ```kotlin
      // Setting the screen saver with bitmap
-     screen_saver.setSingleImage(Bitmap)
+     screen_saver.setSingleImage(bitmap)
 
      // Setting the screen saver with drawable
      screen_saver.setSingleImage(R.drawable.image)
@@ -81,9 +81,9 @@ For Animation config
 	 // Use library default animation
 	 screen_saver.startScreenSaver()
 	 
-	// To control the animation programaticlly
+	 // To control the animation programaticlly
 	 // PARAM:  seconds "Duration", fromX, fromY, toX, toY, pivotX, pivotY, repeat, and reversed
-     screen_saver.startScreenSaver(16, 1.0F, 1.0F, 1.5F, 1.5F, 0.5F, 0.5F, 10, true)
+     	 screen_saver.startScreenSaver(16, 1.0F, 1.0F, 1.5F, 1.5F, 0.5F, 0.5F, 10, true)
 	 
 	 // Use same method without repeat param for INFINITE count
 	 screen_saver.startScreenSaver(10, 1.0F, 1.0F, 1.5F, 1.5F, 0.5F, 0.5F, true)

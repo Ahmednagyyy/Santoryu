@@ -61,15 +61,15 @@ For multiple images screen saver
 ----
 ```kotlin
 	// Setting the screen saver images
-        val arrayImage = ArrayList<Int>() //or <Bitmap>
-        arrayImage.add(R.drawable.image1)
-        arrayImage.add(R.drawable.image2)
-        arrayImage.add(R.drawable.image3)
+        val imagesArray = ArrayList<Int>() //or <Bitmap>
+        imagesArray.add(R.drawable.image1)
+        imagesArray.add(R.drawable.image2)
+        imagesArray.add(R.drawable.image3)
 		
 	// Use default duration between images transition
-        screen_saver.setMultiDrawables(arrayImage)
+        screen_saver.setMultiDrawables(imagesArray)
 	// Use custom duration ( in seconds ) between images transition
-        screen_saver.setMultiDrawables(arrayImage, 10)
+        screen_saver.setMultiDrawables(imagesArray, 10)
 ```
 
 For Animation config

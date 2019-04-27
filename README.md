@@ -47,7 +47,7 @@ Implementation
     />
 ```
 For single image screen saver
-=
+----
 ```kotlin
      // Setting the screen saver with bitmap
      screen_saver.setSingleImage(bitmap)

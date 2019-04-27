@@ -1,7 +1,8 @@
-#Santoryu
+Santoryu
+=======
 
-##Features
-
+Features
+--------
 
 - Animated screen saver image views ( Released :tw-2714: :tw-2728: )
 - News feed stories image views  ( Baking :tw-1f36a:  :tw-23f3: )
@@ -10,16 +11,16 @@
 
 ---
 
-###Uses
-
+Uses
+----
 - Home page banners
 - Login screen animated backgrounds
 - News feed or stories view
 
 ---
 
-#### How to use
-
+How to use
+----------
 
 - First add this line to your app gradle file
 
@@ -38,7 +39,8 @@ implementation 'com.github.Ahmednagyyy:Santoryu:1.0.0'
 ```
 ---
 
-####Implementation
+Implementation
+====
 ```xml
     <com.extremesolution.santoryu.ScreenSaver
             android:id="@+id/screen_saver"
@@ -46,32 +48,34 @@ implementation 'com.github.Ahmednagyyy:Santoryu:1.0.0'
             android:layout_width="<WIDTH>"
     />
 ```
-#####For single image screen saver
+For single image screen saver
+=
 ```kotlin
-	// Setting the screen saver with bitmap
+     // Setting the screen saver with bitmap
      screen_saver.setSingleImage(Bitmap)
 
-	// Setting the screen saver with drawable
+     // Setting the screen saver with drawable
      screen_saver.setSingleImage(R.drawable.image)
 	 
 ```
 
-#####For multiple images screen saver
+For multiple images screen saver
+=
 ```kotlin
-		// Setting the screen saver images
+	// Setting the screen saver images
         val arrayImage = ArrayList<Int>() //or <Bitmap>
         arrayImage.add(R.drawable.image1)
         arrayImage.add(R.drawable.image2)
         arrayImage.add(R.drawable.image3)
 		
-		// Use default duration between images transition
+	// Use default duration between images transition
         screen_saver.setMultiDrawables(arrayImage)
-		 // Use custom duration ( in seconds ) between images transition
+	// Use custom duration ( in seconds ) between images transition
         screen_saver.setMultiDrawables(arrayImage, 10)
 ```
 
-#####For Animation config
-
+For Animation config
+=
 ```kotlin
 	 // Use animation resource ( scaling animation )
 	 screen_saver.startScreenSaver(R.anim.animation)

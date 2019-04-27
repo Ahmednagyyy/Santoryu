@@ -21,6 +21,7 @@ class ScreenSaver(context: Context, attrs: AttributeSet) : ImageView(context, at
     /**
      * @IMPORTANT
      * If you are gonna use the multiple screen saver with a custom duration
+     *
      * Please set Animation duration with the same duration for better performance
      */
 

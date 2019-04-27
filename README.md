@@ -17,7 +17,6 @@ Uses
 - Login screen animated backgrounds
 - News feed or stories view
 
----
 
 How to use
 ----------
@@ -40,7 +39,7 @@ implementation 'com.github.Ahmednagyyy:Santoryu:1.0.0'
 ---
 
 Implementation
-====
+----
 ```xml
     <com.extremesolution.santoryu.ScreenSaver
             android:id="@+id/screen_saver"
@@ -60,7 +59,7 @@ For single image screen saver
 ```
 
 For multiple images screen saver
-=
+----
 ```kotlin
 	// Setting the screen saver images
         val arrayImage = ArrayList<Int>() //or <Bitmap>
@@ -75,7 +74,7 @@ For multiple images screen saver
 ```
 
 For Animation config
-=
+----
 ```kotlin
 	 // Use animation resource ( scaling animation )
 	 screen_saver.startScreenSaver(R.anim.animation)
@@ -93,7 +92,6 @@ For Animation config
 	 // Use same method with default duration
 	 screen_saver.startScreenSaver(1.0F, 1.0F, 1.5F, 1.5F, 0.5F, 0.5F, true)
 ```
----
 
 ---
 ** Still had alot of work to do with Santoryu**

@@ -1,5 +1,4 @@
-Santoryu
-=======
+# Santoryu
 **Based on Android Scaling Animation and Animation Drawables**
 
 Features

@@ -1,5 +1,6 @@
 Santoryu
 =======
+**Based on Android Scaling Animation and Animation Drawables**
 
 Features
 --------
@@ -7,7 +8,6 @@ Features
 - Animated screen saver image views ( Released :heavy_check_mark: :rocket: )
 - News feed stories image views  ( Baking :cookie:  :hourglass: )
 - Creating custom GIF with set of images ( Baking :cookie:  :hourglass: )
-- **Based on Android Scaling Animation and Animation Drawables**
 
 
 Uses

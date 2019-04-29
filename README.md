@@ -11,7 +11,7 @@ Features
 - Creating custom GIF with set of images ( Baking :cookie:  :hourglass: )
 
 
-Usage
+Installation
 ----------
 
 - First add this line to your app gradle file
@@ -31,7 +31,7 @@ implementation 'com.github.Ahmednagyyy:Santoryu:1.0.0'
 ```
 ---
 
-Implementation
+Usage
 ----
 ```xml
     <com.extremesolution.santoryu.ScreenSaver

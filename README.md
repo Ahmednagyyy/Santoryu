@@ -18,7 +18,7 @@ Uses
 - News feed or stories view
 
 
-How to use
+Usage
 ----------
 
 - First add this line to your app gradle file

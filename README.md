@@ -11,13 +11,6 @@ Features
 - Creating custom GIF with set of images ( Baking :cookie:  :hourglass: )
 
 
-Uses
-----
-- Home page banners
-- Login screen animated backgrounds
-- News feed or stories view
-
-
 Usage
 ----------
 

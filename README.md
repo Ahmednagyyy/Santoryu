@@ -1,4 +1,6 @@
 # Santoryu
+[![](https://jitpack.io/v/Ahmednagyyy/Santoryu.svg)](https://jitpack.io/#Ahmednagyyy/Santoryu)
+
 **Based on Android Scaling Animation and Animation Drawables**
 
 Features

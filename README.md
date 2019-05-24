@@ -34,7 +34,8 @@ implementation 'com.github.Ahmednagyyy:Santoryu:1.0.0'
 Usage
 ----
 ```xml
-    <com.extremesolution.santoryu.ScreenSaver
+   	// in your layout.xml file
+	<com.extremesolution.santoryu.ScreenSaver
             android:id="@+id/screen_saver"
             android:layout_height="<HEIGHT>"
             android:layout_width="<WIDTH>"
